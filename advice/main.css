@@ -1,0 +1,75 @@
+/****base styles***/
+body{
+font-family: 'Tenso',starling sans-serif, serif;
+font-style: normal;
+font-weight: 300;
+color: #24241E;
+}
+h1,h2,h3 {
+font-family: 'Starling', serif;
+}
+
+p {
+  font-family: 'Tenso', san-serif;
+  font-size: 18px;
+  }
+.first-paragraph::first-letter {
+  float: left;
+  padding-top: 1px;
+  padding-right: 1px;
+  color: darkred;
+  font-size: 55px;
+  line-height: 30px;
+}
+.first-paragraph {
+    width:800px;
+    text-align: justify;
+
+}
+  .second-paragraph h2{
+    font-size: 28px;
+  }
+.second-paragraph {
+    width: 800px;
+    text-align: justify;
+}
+  h3{
+    font-size: 23px;
+  }
+/*****grid*****/
+.top {
+width: 1200px;
+margin: 0 auto;
+}
+.middle {
+width: 1200px;
+}
+.end {
+width: 1200px;
+margin: 0 auto;
+}
+/*****header*****/
+header{
+    height:110px;
+    width: 1200px;
+    background-color: #f5f3f2;
+}
+h1{
+    font-size: 36px;
+    padding-left: 340px;
+    padding-right: 340px;
+    }
+    header h1 span{
+    color: darkred;
+    }
+    /****footer*****/
+.end{
+    padding-left: 340px;
+    height: 80px;
+    width: 1200px;
+    background-color: #f5f3f2;
+}
+.end h3{
+    font-size: 16px;
+    padding-top: 30px;
+}
